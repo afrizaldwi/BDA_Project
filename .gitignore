@@ -1,0 +1,12 @@
+/*.h5
+/*.keras
+/*.joblib
+/*.npy
+/*.npz
+
+*.h5
+*.joblib
+*.keras
+*.npy
+*.npz
+.ipynb_checkpoints

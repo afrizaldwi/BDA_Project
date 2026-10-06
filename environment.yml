@@ -99,7 +99,6 @@ dependencies:
       - matplotlib-inline==0.2.2
       - mdurl==0.1.2
       - mistune==3.3.4
-      - ml-dtypes==0.6.0
       - namex==0.1.0
       - narwhals==2.26.0
       - nbclient==0.11.0
@@ -108,7 +107,7 @@ dependencies:
       - nest-asyncio2==1.7.2
       - notebook==7.6.2
       - notebook-shim==0.2.4
-      - numpy==1.26.4
+      - numpy>=1.26.4
       - nvidia-cublas-cu12==12.9.2.10
       - nvidia-cuda-cupti-cu12==12.9.79
       - nvidia-cuda-nvcc-cu12==12.9.86
