@@ -1,0 +1,424 @@
+{
+  "development": {
+    "combined_metadata": {
+      "array_sha256": {
+        "X_train_combined": "8e277ddfa6e4289c600ce7df4e2bf2c7143099ccf3ab6905670d72ff34c71a3c",
+        "X_val_combined": "f175b72903352eea4b104acb2aa6b0f8ffc0d2794fae26703b4c9a16f7c50aa0",
+        "train_indices": "4a1c5de19d13c7302e6c6340d0e4aa3b6f77f6390312c385710622ee7a843c88",
+        "val_indices": "781cea0d3b8aaedd4546fd2243f8d98587bc321602f9ce592d5b471be63bc4f9",
+        "y_train": "315297385b7f57d51d562b65ad51e3059bf5883bd19e9d97d68dc677a8af7b8f",
+        "y_val": "28b690f617947abb1b2bc6d3a86a2c7f2c60dd1d7a661f804c18a6561e22906a"
+      },
+      "experiment_id": "fusion_flip_v1_001",
+      "extraction_method": "mean of original and width-axis horizontal flip svm_features embeddings",
+      "feature_dims": [
+        512,
+        512,
+        512
+      ],
+      "feature_order": [
+        "RGB",
+        "AVG",
+        "NTSC"
+      ],
+      "run_id": "46700685-92c1-4652-85ef-de2d9ff174e0",
+      "seed": 30092026,
+      "source_archive_sha256": {
+        "AVG": "fc17d64fd27d1c97bc4a222c91a6557cbdf114421f93aaea719692f1301a90a8",
+        "NTSC": "58e3dd8993ab2ebd5180a8a825473d6b7df23c6ba1ff4bc6da3dbb8f89b777cb",
+        "RGB": "27a5369c19ec1018e630ed928799a2e3e43c1974d35f710d1ac9559e164c8618"
+      },
+      "sources": {
+        "AVG": {
+          "array_sha256": {
+            "X_train_features": "213cb5ceabfd9c3b48fe502d1ae249035a8fe470b023db6f1b03b6c81d9c01b6",
+            "X_val_features": "fbf764025590a55c5b487e177b3d19f2debaf07b56944d7e499f0c6ddcce65a3",
+            "train_indices": "4a1c5de19d13c7302e6c6340d0e4aa3b6f77f6390312c385710622ee7a843c88",
+            "val_indices": "781cea0d3b8aaedd4546fd2243f8d98587bc321602f9ce592d5b471be63bc4f9",
+            "y_train": "315297385b7f57d51d562b65ad51e3059bf5883bd19e9d97d68dc677a8af7b8f",
+            "y_val": "28b690f617947abb1b2bc6d3a86a2c7f2c60dd1d7a661f804c18a6561e22906a"
+          },
+          "batch_size": 128,
+          "cnn_filename": "models/cifar10_avg_cnn_v3.keras",
+          "cnn_sha256": "764f3f08042391372340946aeeccc779f9612e0e9c7198c82b06a8c353f5eaee",
+          "expected_final_batch_rows": {
+            "train": 64,
+            "val": 16
+          },
+          "experiment_id": "fusion_flip_v1_001",
+          "extraction_method": "mean of original and width-axis horizontal flip svm_features embeddings",
+          "extraction_seconds": 30.810430205999182,
+          "feature_dim": 512,
+          "feature_layer": "svm_features",
+          "flip_axis": 2,
+          "inference_api": "keras.Model.predict",
+          "normalization": "divide by 255.0",
+          "original_archive": "features/avg_features_v3.npz",
+          "original_archive_sha256": "03198a77b025792462a4ebbff312056c5d4384df5e2658b18a6962aacece8b30",
+          "original_comparison": {
+            "all_development_values_verified": true,
+            "splits": {
+              "train": {
+                "affected_image_offsets": [],
+                "affected_image_offsets_truncated": false,
+                "affected_images": 0,
+                "atol": 0.0005,
+                "feature_values": 20480000,
+                "images": 40000,
+                "largest_violation_examples": [],
+                "max_absolute_difference": 4.76837158203125e-06,
+                "mean_absolute_difference": 7.751279618162243e-10,
+                "percentile_absolute_difference": {
+                  "100.0": 4.76837158203125e-06,
+                  "50.0": 0.0,
+                  "90.0": 0.0,
+                  "95.0": 0.0,
+                  "99.0": 0.0,
+                  "99.9": 2.384185791015625e-07
+                },
+                "rtol": 0.0001,
+                "violating_feature_values": 0,
+                "within_provisional_tolerance": true
+              },
+              "val": {
+                "affected_image_offsets": [],
+                "affected_image_offsets_truncated": false,
+                "affected_images": 0,
+                "atol": 0.0005,
+                "feature_values": 5120000,
+                "images": 10000,
+                "largest_violation_examples": [],
+                "max_absolute_difference": 0.0,
+                "mean_absolute_difference": 0.0,
+                "percentile_absolute_difference": {
+                  "100.0": 0.0,
+                  "50.0": 0.0,
+                  "90.0": 0.0,
+                  "95.0": 0.0,
+                  "99.0": 0.0,
+                  "99.9": 0.0
+                },
+                "rtol": 0.0001,
+                "violating_feature_values": 0,
+                "within_provisional_tolerance": true
+              }
+            },
+            "threshold_status": "provisional; accepted only after full 40K train and 10K validation checks"
+          },
+          "predict_call_scope": "one call per complete ordered split and view",
+          "preprocessing": "mean(R,G,B) in float32 / 255.0",
+          "representation": "AVG",
+          "seed": 30092026,
+          "split_sha256": {
+            "train": "4a1c5de19d13c7302e6c6340d0e4aa3b6f77f6390312c385710622ee7a843c88",
+            "val": "781cea0d3b8aaedd4546fd2243f8d98587bc321602f9ce592d5b471be63bc4f9"
+          },
+          "training_batch_sha256": {
+            "data_batch_1": "54636561a3ce25bd3e19253c6b0d8538147b0ae398331ac4a2d86c6d987368cd",
+            "data_batch_2": "766b2cef9fbc745cf056b3152224f7cf77163b330ea9a15f9392beb8b89bc5a8",
+            "data_batch_3": "0f00d98ebfb30b3ec0ad19f9756dc2630b89003e10525f5e148445e82aa6a1f9",
+            "data_batch_4": "3f7bb240661948b8f4d53e36ec720d8306f5668bd0071dcb4e6c947f78e9682b",
+            "data_batch_5": "d91802434d8376bbaeeadf58a737e3a1b12ac839077e931237e0dcd43adcb154"
+          }
+        },
+        "NTSC": {
+          "array_sha256": {
+            "X_train_features": "a0d5646834a13f3ac1d080a69096bb2bd43e5e90479e07e1a866e34b055358e1",
+            "X_val_features": "9807dbb5f874efcd48174aee873051602c893ed5f48cfc2fe96eb20ae2cb8c64",
+            "train_indices": "4a1c5de19d13c7302e6c6340d0e4aa3b6f77f6390312c385710622ee7a843c88",
+            "val_indices": "781cea0d3b8aaedd4546fd2243f8d98587bc321602f9ce592d5b471be63bc4f9",
+            "y_train": "315297385b7f57d51d562b65ad51e3059bf5883bd19e9d97d68dc677a8af7b8f",
+            "y_val": "28b690f617947abb1b2bc6d3a86a2c7f2c60dd1d7a661f804c18a6561e22906a"
+          },
+          "batch_size": 128,
+          "checkpoint_identity": {
+            "available_recorded_sha256": "7e10d15664d2840c67a0f10f99389e8a657dc06a610b44355a720d2dd4b0970e",
+            "comparison_source": "feature-engineering/experiments/fusion_original_v4_001/search_state.json",
+            "current_checkpoint_sha256": "7e10d15664d2840c67a0f10f99389e8a657dc06a610b44355a720d2dd4b0970e",
+            "historical_extraction_checkpoint_identity_verified": false,
+            "limitation": "Legacy archives have no CNN hashes; recorded hashes identify current files, not historical extraction proof.",
+            "matches_available_record": true
+          },
+          "cnn_filename": "models/cifar10_ntsc_cnn_v3.keras",
+          "cnn_sha256": "7e10d15664d2840c67a0f10f99389e8a657dc06a610b44355a720d2dd4b0970e",
+          "expected_final_batch_rows": {
+            "train": 64,
+            "val": 16
+          },
+          "experiment_id": "fusion_flip_v1_001",
+          "extraction_method": "mean of original and width-axis horizontal flip svm_features embeddings",
+          "extraction_seconds": 48.848076360999585,
+          "feature_dim": 512,
+          "feature_layer": "svm_features",
+          "flip_axis": 2,
+          "inference_api": "keras.Model.predict",
+          "normalization": "divide by 255.0",
+          "original_archive": "features/ntsc_features_v3.npz",
+          "original_archive_sha256": "746e89522e86e70af958798a1151bd2dfeaa248975de74eb07b99d7da7784cf5",
+          "original_comparison": {
+            "absolute_tolerance": 0.0006,
+            "relative_tolerance": 0.0001,
+            "role": "reporting_only",
+            "splits": {
+              "train": {
+                "affected_image_offsets": [],
+                "affected_image_offsets_truncated": false,
+                "affected_images": 0,
+                "atol": 0.0006,
+                "feature_values": 20480000,
+                "images": 40000,
+                "largest_violation_examples": [],
+                "max_absolute_difference": 0.0005603432655334473,
+                "mean_absolute_difference": 7.706272299401462e-06,
+                "percentile_absolute_difference": {
+                  "100.0": 0.0005603432655334473,
+                  "50.0": 1.9073486328125e-06,
+                  "90.0": 2.2470951080322266e-05,
+                  "95.0": 3.427267074584961e-05,
+                  "99.0": 6.687641143798828e-05,
+                  "99.9": 0.00012412667274475098
+                },
+                "rtol": 0.0001,
+                "violating_feature_values": 0,
+                "within_provisional_tolerance": true
+              },
+              "val": {
+                "affected_image_offsets": [
+                  1911
+                ],
+                "affected_image_offsets_truncated": false,
+                "affected_images": 1,
+                "atol": 0.0006,
+                "feature_values": 5120000,
+                "images": 10000,
+                "largest_violation_examples": [
+                  {
+                    "absolute_difference": 0.0006902217864990234,
+                    "allowed_difference": 0.0006402784492820501,
+                    "feature_index": 355,
+                    "image_offset": 1911,
+                    "predicted": -0.40347421169281006,
+                    "reference": -0.40278398990631104
+                  }
+                ],
+                "max_absolute_difference": 0.0006902217864990234,
+                "mean_absolute_difference": 7.922646545921452e-06,
+                "percentile_absolute_difference": {
+                  "100.0": 0.0006902217864990234,
+                  "50.0": 2.086162567138672e-06,
+                  "90.0": 2.3096799850463867e-05,
+                  "95.0": 3.510713577270508e-05,
+                  "99.0": 6.748750805854464e-05,
+                  "99.9": 0.00012171268463134766
+                },
+                "rtol": 0.0001,
+                "violating_feature_values": 1,
+                "within_provisional_tolerance": false
+              }
+            },
+            "threshold_status": "historical diagnostic only; not an acceptance criterion"
+          },
+          "predict_call_scope": "two original calls and one flipped call per complete ordered split",
+          "preprocessing": "(0.299R + 0.587G + 0.114B) in float32 / 255.0",
+          "repeatability_verification": {
+            "all_development_splits_repeatable": true,
+            "criterion": "two float32 predict outputs must be exactly equal for every feature value",
+            "splits": {
+              "train": {
+                "affected_images": 0,
+                "criterion": "two float32 predict outputs must be exactly equal for every feature value",
+                "differing_feature_values": 0,
+                "exact_match": true,
+                "feature_values": 20480000,
+                "images": 40000,
+                "max_absolute_difference": 0.0
+              },
+              "val": {
+                "affected_images": 0,
+                "criterion": "two float32 predict outputs must be exactly equal for every feature value",
+                "differing_feature_values": 0,
+                "exact_match": true,
+                "feature_values": 5120000,
+                "images": 10000,
+                "max_absolute_difference": 0.0
+              }
+            }
+          },
+          "representation": "NTSC",
+          "seed": 30092026,
+          "split_sha256": {
+            "train": "4a1c5de19d13c7302e6c6340d0e4aa3b6f77f6390312c385710622ee7a843c88",
+            "val": "781cea0d3b8aaedd4546fd2243f8d98587bc321602f9ce592d5b471be63bc4f9"
+          },
+          "training_batch_sha256": {
+            "data_batch_1": "54636561a3ce25bd3e19253c6b0d8538147b0ae398331ac4a2d86c6d987368cd",
+            "data_batch_2": "766b2cef9fbc745cf056b3152224f7cf77163b330ea9a15f9392beb8b89bc5a8",
+            "data_batch_3": "0f00d98ebfb30b3ec0ad19f9756dc2630b89003e10525f5e148445e82aa6a1f9",
+            "data_batch_4": "3f7bb240661948b8f4d53e36ec720d8306f5668bd0071dcb4e6c947f78e9682b",
+            "data_batch_5": "d91802434d8376bbaeeadf58a737e3a1b12ac839077e931237e0dcd43adcb154"
+          },
+          "verification_protocol": "same-session-exact-repeatability-v1"
+        },
+        "RGB": {
+          "array_sha256": {
+            "X_train_features": "cba57cef4d8e3bc6d28fef57a3fdfb2777ffa4e2300545c7806ac253e9ea5165",
+            "X_val_features": "7512ecf6c49f4a1bf056ec623981ac45576f9b1b3f4a7f07d7d348216d61960b",
+            "train_indices": "4a1c5de19d13c7302e6c6340d0e4aa3b6f77f6390312c385710622ee7a843c88",
+            "val_indices": "781cea0d3b8aaedd4546fd2243f8d98587bc321602f9ce592d5b471be63bc4f9",
+            "y_train": "315297385b7f57d51d562b65ad51e3059bf5883bd19e9d97d68dc677a8af7b8f",
+            "y_val": "28b690f617947abb1b2bc6d3a86a2c7f2c60dd1d7a661f804c18a6561e22906a"
+          },
+          "batch_size": 128,
+          "cnn_filename": "models/cifar10_custom_cnn_v3.keras",
+          "cnn_sha256": "150450c7ad221e3f8e74379ed1b286dc1bf1a440856de171cc95049a21b0f4ab",
+          "expected_final_batch_rows": {
+            "train": 64,
+            "val": 16
+          },
+          "experiment_id": "fusion_flip_v1_001",
+          "extraction_method": "mean of original and width-axis horizontal flip svm_features embeddings",
+          "extraction_seconds": 32.424931294999624,
+          "feature_dim": 512,
+          "feature_layer": "svm_features",
+          "flip_axis": 2,
+          "inference_api": "keras.Model.predict",
+          "normalization": "divide by 255.0",
+          "original_archive": "features/rgb_features_v3.npz",
+          "original_archive_sha256": "5d420d4e354bf22068a9aff1d77f8e51044863e43a30c866e5be5098660a5931",
+          "original_comparison": {
+            "all_development_values_verified": true,
+            "splits": {
+              "train": {
+                "affected_image_offsets": [],
+                "affected_image_offsets_truncated": false,
+                "affected_images": 0,
+                "atol": 0.0005,
+                "feature_values": 20480000,
+                "images": 40000,
+                "largest_violation_examples": [],
+                "max_absolute_difference": 0.000443875789642334,
+                "mean_absolute_difference": 6.2827803049003705e-06,
+                "percentile_absolute_difference": {
+                  "100.0": 0.000443875789642334,
+                  "50.0": 9.5367431640625e-07,
+                  "90.0": 1.913309097290039e-05,
+                  "95.0": 2.9861927032470703e-05,
+                  "99.0": 5.91278076171875e-05,
+                  "99.9": 0.00010943412780761719
+                },
+                "rtol": 0.0001,
+                "violating_feature_values": 0,
+                "within_provisional_tolerance": true
+              },
+              "val": {
+                "affected_image_offsets": [],
+                "affected_image_offsets_truncated": false,
+                "affected_images": 0,
+                "atol": 0.0005,
+                "feature_values": 5120000,
+                "images": 10000,
+                "largest_violation_examples": [],
+                "max_absolute_difference": 0.0003603696823120117,
+                "mean_absolute_difference": 6.418727934942581e-06,
+                "percentile_absolute_difference": {
+                  "100.0": 0.0003603696823120117,
+                  "50.0": 1.0132789611816406e-06,
+                  "90.0": 1.9371509552001953e-05,
+                  "95.0": 3.0279159545898438e-05,
+                  "99.0": 6.020069122314453e-05,
+                  "99.9": 0.00011271244287491822
+                },
+                "rtol": 0.0001,
+                "violating_feature_values": 0,
+                "within_provisional_tolerance": true
+              }
+            },
+            "threshold_status": "provisional; accepted only after full 40K train and 10K validation checks"
+          },
+          "predict_call_scope": "one call per complete ordered split and view",
+          "preprocessing": "RGB float32 / 255.0",
+          "representation": "RGB",
+          "seed": 30092026,
+          "split_sha256": {
+            "train": "4a1c5de19d13c7302e6c6340d0e4aa3b6f77f6390312c385710622ee7a843c88",
+            "val": "781cea0d3b8aaedd4546fd2243f8d98587bc321602f9ce592d5b471be63bc4f9"
+          },
+          "training_batch_sha256": {
+            "data_batch_1": "54636561a3ce25bd3e19253c6b0d8538147b0ae398331ac4a2d86c6d987368cd",
+            "data_batch_2": "766b2cef9fbc745cf056b3152224f7cf77163b330ea9a15f9392beb8b89bc5a8",
+            "data_batch_3": "0f00d98ebfb30b3ec0ad19f9756dc2630b89003e10525f5e148445e82aa6a1f9",
+            "data_batch_4": "3f7bb240661948b8f4d53e36ec720d8306f5668bd0071dcb4e6c947f78e9682b",
+            "data_batch_5": "d91802434d8376bbaeeadf58a737e3a1b12ac839077e931237e0dcd43adcb154"
+          }
+        }
+      }
+    },
+    "combined_path": "/home/saga/anaconda3/envs/envGPU/BDA_Project/tugas-7/feature-engineering/experiments/fusion_flip_v1_001/combined_flip_features.npz",
+    "combined_sha256": "cb0e2715af630cdf7013bd835bf36738d5cba4bb4eaefb2a5235daeadce3bf7b",
+    "development_features_sha256": "b20289de64d7c6ae23714f34dd3bb9be6e3ebe80bbf4568fa82ae3834b7175ad",
+    "development_indices_sha256": "ba25f484ca4a53d9bd99a9bda2b2f99118ab978269d33a550984e47405bfe987",
+    "development_labels_sha256": "dcae0b611a3f166e0a4f7dd773e66a966478053cf1cd75d5ea4d6e8c88300481",
+    "feature_dims": [
+      512,
+      512,
+      512
+    ],
+    "feature_order": [
+      "RGB",
+      "AVG",
+      "NTSC"
+    ]
+  },
+  "feature_dims": [
+    512,
+    512,
+    512
+  ],
+  "feature_order": [
+    "RGB",
+    "AVG",
+    "NTSC"
+  ],
+  "fit": {
+    "fit_seconds": 30.832814753999628
+  },
+  "preprocessing": "VarianceThreshold(0), StandardScaler, float32, then block weights",
+  "selection": {
+    "completed_candidates": 45,
+    "kernel": "rbf",
+    "ledger_path": "/home/saga/anaconda3/envs/envGPU/BDA_Project/tugas-7/feature-engineering/experiments/fusion_flip_v1_001/svm_search/search_state.json",
+    "ledger_sha256": "b45667713649e34d077d128a7b0a7faa87dacef80dc168ee325390d6003719fd",
+    "parameters": {
+      "C": 1.0,
+      "gamma": 0.00015811388300841897,
+      "weights": [
+        1.0,
+        0.5,
+        0.5
+      ]
+    },
+    "validation_accuracy": 0.9515,
+    "validation_correct": 9515
+  },
+  "test_extraction": {
+    "batch_size": 128,
+    "checkpoint_sha256": {
+      "AVG": "764f3f08042391372340946aeeccc779f9612e0e9c7198c82b06a8c353f5eaee",
+      "NTSC": "7e10d15664d2840c67a0f10f99389e8a657dc06a610b44355a720d2dd4b0970e",
+      "RGB": "150450c7ad221e3f8e74379ed1b286dc1bf1a440856de171cc95049a21b0f4ab"
+    },
+    "extraction": "mean of original and width-axis horizontal flip svm_features embeddings",
+    "feature_dims": [
+      512,
+      512,
+      512
+    ],
+    "feature_order": [
+      "RGB",
+      "AVG",
+      "NTSC"
+    ],
+    "test_features_sha256": "6a9c3d8959f537823b2252e2296f5fab83a81223b77b18f886d88eb7e3ffc0b7",
+    "test_labels_sha256": "c29ad0d1f110c235744beb0ca06e6ad877e4db6b9d74c67193d5c294b2a37dbc"
+  }
+}
