@@ -1,0 +1,39 @@
+{
+  "params": {
+    "svc__C": 1,
+    "svc__gamma": "scale"
+  },
+  "grid_validation_accuracy": 0.926,
+  "final_validation_accuracy": 0.926,
+  "seconds": 254.90624042400304,
+  "candidates": [
+    {
+      "params": {
+        "svc__C": 1,
+        "svc__gamma": "scale"
+      },
+      "score": 0.926
+    },
+    {
+      "params": {
+        "svc__C": 1,
+        "svc__gamma": 0.001
+      },
+      "score": 0.9252
+    },
+    {
+      "params": {
+        "svc__C": 10,
+        "svc__gamma": "scale"
+      },
+      "score": 0.9255
+    },
+    {
+      "params": {
+        "svc__C": 10,
+        "svc__gamma": 0.001
+      },
+      "score": 0.9257
+    }
+  ]
+}

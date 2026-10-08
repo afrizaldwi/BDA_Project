@@ -1,0 +1,120 @@
+{
+  "run_id": "cifar10_7fitur_v1",
+  "split_hash": "16004a1ac8a89ac92ba6280367a7fb7b284c3643abb1c9d10409d6739ef31305",
+  "three_embeddings": {
+    "best_params": {
+      "svc__C": 1,
+      "svc__gamma": 0.001
+    },
+    "best_validation_accuracy": 0.933,
+    "seconds": 642.3757519399951,
+    "candidates": [
+      {
+        "params": {
+          "svc__C": 1,
+          "svc__gamma": "scale"
+        },
+        "score": 0.9326
+      },
+      {
+        "params": {
+          "svc__C": 1,
+          "svc__gamma": 0.001
+        },
+        "score": 0.933
+      },
+      {
+        "params": {
+          "svc__C": 10,
+          "svc__gamma": "scale"
+        },
+        "score": 0.9324
+      },
+      {
+        "params": {
+          "svc__C": 10,
+          "svc__gamma": 0.001
+        },
+        "score": 0.9327
+      }
+    ]
+  },
+  "seven_groups": {
+    "best_params": {
+      "svc__C": 1,
+      "svc__gamma": "scale",
+      "weight__extra_weight": 1.0
+    },
+    "best_validation_accuracy": 0.9335,
+    "seconds": 3011.1128510929993,
+    "candidates": [
+      {
+        "params": {
+          "svc__C": 1,
+          "svc__gamma": "scale",
+          "weight__extra_weight": 0.25
+        },
+        "score": 0.9328
+      },
+      {
+        "params": {
+          "svc__C": 1,
+          "svc__gamma": "scale",
+          "weight__extra_weight": 1.0
+        },
+        "score": 0.9335
+      },
+      {
+        "params": {
+          "svc__C": 1,
+          "svc__gamma": 0.001,
+          "weight__extra_weight": 0.25
+        },
+        "score": 0.9329
+      },
+      {
+        "params": {
+          "svc__C": 1,
+          "svc__gamma": 0.001,
+          "weight__extra_weight": 1.0
+        },
+        "score": 0.9313
+      },
+      {
+        "params": {
+          "svc__C": 10,
+          "svc__gamma": "scale",
+          "weight__extra_weight": 0.25
+        },
+        "score": 0.9328
+      },
+      {
+        "params": {
+          "svc__C": 10,
+          "svc__gamma": "scale",
+          "weight__extra_weight": 1.0
+        },
+        "score": 0.9334
+      },
+      {
+        "params": {
+          "svc__C": 10,
+          "svc__gamma": 0.001,
+          "weight__extra_weight": 0.25
+        },
+        "score": 0.9326
+      },
+      {
+        "params": {
+          "svc__C": 10,
+          "svc__gamma": 0.001,
+          "weight__extra_weight": 1.0
+        },
+        "score": 0.9329
+      }
+    ]
+  },
+  "baseline_final_validation_accuracy": 0.933,
+  "fusion_final_validation_accuracy": 0.9335,
+  "validation_delta": 0.0004999999999999449
+}

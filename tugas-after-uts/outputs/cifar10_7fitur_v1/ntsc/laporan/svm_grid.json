@@ -1,0 +1,39 @@
+{
+  "params": {
+    "svc__C": 1,
+    "svc__gamma": "scale"
+  },
+  "grid_validation_accuracy": 0.9092,
+  "final_validation_accuracy": 0.9092,
+  "seconds": 244.4826506709942,
+  "candidates": [
+    {
+      "params": {
+        "svc__C": 1,
+        "svc__gamma": "scale"
+      },
+      "score": 0.9092
+    },
+    {
+      "params": {
+        "svc__C": 1,
+        "svc__gamma": 0.001
+      },
+      "score": 0.9089
+    },
+    {
+      "params": {
+        "svc__C": 10,
+        "svc__gamma": "scale"
+      },
+      "score": 0.9092
+    },
+    {
+      "params": {
+        "svc__C": 10,
+        "svc__gamma": 0.001
+      },
+      "score": 0.9086
+    }
+  ]
+}

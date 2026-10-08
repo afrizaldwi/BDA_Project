@@ -1,0 +1,23 @@
+{
+  "run_id": "cifar10_7fitur_v1",
+  "variant": "rgb",
+  "params": {
+    "lr": 0.001
+  },
+  "validation_accuracy": 0.8991,
+  "seconds": 2221.256078028,
+  "candidates": [
+    {
+      "params": {
+        "lr": 0.001
+      },
+      "score": 0.8991
+    },
+    {
+      "params": {
+        "lr": 0.0003
+      },
+      "score": 0.8934
+    }
+  ]
+}

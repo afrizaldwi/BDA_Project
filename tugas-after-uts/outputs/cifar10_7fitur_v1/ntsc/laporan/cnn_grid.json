@@ -1,0 +1,23 @@
+{
+  "run_id": "cifar10_7fitur_v1",
+  "variant": "ntsc",
+  "params": {
+    "lr": 0.001
+  },
+  "validation_accuracy": 0.8841,
+  "seconds": 2216.316123477998,
+  "candidates": [
+    {
+      "params": {
+        "lr": 0.001
+      },
+      "score": 0.8841
+    },
+    {
+      "params": {
+        "lr": 0.0003
+      },
+      "score": 0.8761
+    }
+  ]
+}
