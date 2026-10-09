@@ -1,0 +1,40 @@
+{
+  "C": 10,
+  "archive_sha256": "913e80a3acc3508ef3fab0750b0df51bfbf885446149ca03766aa3027fa57fc8",
+  "boundaries": [
+    0,
+    512,
+    1024,
+    1536,
+    1860,
+    2116,
+    2164,
+    2173
+  ],
+  "gamma": 0.45854146,
+  "identity_sha256": "f19e28f630afc506d257fbb9b8e967690786186501e98e320d07992a65ed591d",
+  "model_hashes": [
+    "f7ee1fafbaa536b419c50eb6a1f749ea6fe7051dc4fab6825ec19a904e6ab912",
+    "efc5598b6789db22d062c076d0641e1afee43076a87312ccc70cdb55cb7d4010",
+    "8154382b1f8e64db3ccd7e3af5d38dd2a912b5f681b37973fe8abf5ffb439d13"
+  ],
+  "official_test_status": "belum dievaluasi pada v2; v1 sudah pernah terpapar",
+  "preprocessing_version": "v2-group-l2-1",
+  "profile_id": 1,
+  "representation": "B",
+  "run_id": "cifar10_7fitur_v2",
+  "split_hash": "16004a1ac8a89ac92ba6280367a7fb7b284c3643abb1c9d10409d6739ef31305",
+  "v1_three_embeddings_validation_accuracy": 0.933,
+  "v1_validation_accuracy": 0.9335,
+  "validation_accuracy": 0.939,
+  "validation_delta": 0.005499999999999949,
+  "weights": [
+    2,
+    1,
+    1,
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "run_id": "cifar10_7fitur_v2",
+  "representation": "B",
+  "selection_sha256": "84069038cdf151ce076116c50660af85664a26908f8b65f59871d96098a01d7e",
+  "model_sha256": "0fccfd544f132cd330ef503b93a740c8466d25e99960179ef6c690835d5ba524",
+  "test_archive_sha256": "4841d472cc7e957b60157acdac112cda182aa401a66dbc5eaa3d1de29892ad39",
+  "correct": 9326,
+  "total": 10000,
+  "accuracy": 0.9326,
+  "macro_f1": 0.9326011878992789,
+  "classification_report": {
+    "airplane": {
+      "precision": 0.9339250493096647,
+      "recall": 0.947,
+      "f1-score": 0.9404170804369414,
+      "support": 1000.0
+    },
+    "automobile": {
+      "precision": 0.9613095238095238,
+      "recall": 0.969,
+      "f1-score": 0.9651394422310757,
+      "support": 1000.0
+    },
+    "bird": {
+      "precision": 0.9116465863453815,
+      "recall": 0.908,
+      "f1-score": 0.9098196392785571,
+      "support": 1000.0
+    },
+    "cat": {
+      "precision": 0.8655967903711134,
+      "recall": 0.863,
+      "f1-score": 0.8642964446670005,
+      "support": 1000.0
+    },
+    "deer": {
+      "precision": 0.9223205506391348,
+      "recall": 0.938,
+      "f1-score": 0.9300941993058999,
+      "support": 1000.0
+    },
+    "dog": {
+      "precision": 0.8937875751503006,
+      "recall": 0.892,
+      "f1-score": 0.8928928928928929,
+      "support": 1000.0
+    },
+    "frog": {
+      "precision": 0.9538615847542627,
+      "recall": 0.951,
+      "f1-score": 0.9524286429644466,
+      "support": 1000.0
+    },
+    "horse": {
+      "precision": 0.9560439560439561,
+      "recall": 0.957,
+      "f1-score": 0.9565217391304348,
+      "support": 1000.0
+    },
+    "ship": {
+      "precision": 0.9625126646403243,
+      "recall": 0.95,
+      "f1-score": 0.9562154001006542,
+      "support": 1000.0
+    },
+    "truck": {
+      "precision": 0.965482233502538,
+      "recall": 0.951,
+      "f1-score": 0.9581863979848867,
+      "support": 1000.0
+    },
+    "accuracy": 0.9326,
+    "macro avg": {
+      "precision": 0.9326486514566199,
+      "recall": 0.9326000000000001,
+      "f1-score": 0.9326011878992789,
+      "support": 10000.0
+    },
+    "weighted avg": {
+      "precision": 0.93264865145662,
+      "recall": 0.9326,
+      "f1-score": 0.9326011878992789,
+      "support": 10000.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      947,
+      2,
+      15,
+      5,
+      4,
+      0,
+      2,
+      4,
+      16,
+      5
+    ],
+    [
+      4,
+      969,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      7,
+      18
+    ],
+    [
+      12,
+      0,
+      908,
+      15,
+      24,
+      12,
+      17,
+      9,
+      3,
+      0
+    ],
+    [
+      4,
+      1,
+      18,
+      863,
+      17,
+      71,
+      17,
+      4,
+      3,
+      2
+    ],
+    [
+      3,
+      0,
+      22,
+      7,
+      938,
+      11,
+      4,
+      15,
+      0,
+      0
+    ],
+    [
+      5,
+      1,
+      9,
+      67,
+      13,
+      892,
+      3,
+      9,
+      0,
+      1
+    ],
+    [
+      6,
+      0,
+      15,
+      15,
+      9,
+      1,
+      951,
+      1,
+      0,
+      2
+    ],
+    [
+      1,
+      0,
+      5,
+      13,
+      11,
+      10,
+      2,
+      957,
+      1,
+      0
+    ],
+    [
+      23,
+      8,
+      2,
+      7,
+      0,
+      1,
+      1,
+      2,
+      950,
+      6
+    ],
+    [
+      9,
+      27,
+      2,
+      4,
+      0,
+      0,
+      0,
+      0,
+      7,
+      951
+    ]
+  ],
+  "v1_official_test_accuracy": 0.9314,
+  "v1_three_embeddings_official_test_accuracy": 0.9293,
+  "accuracy_delta_from_v1": 0.0011999999999999789,
+  "target_accuracy": 0.95,
+  "target_status": "belum tercapai",
+  "post_exposure_testing": true,
+  "test_seconds": 58.010275597000145
+}

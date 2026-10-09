@@ -1,0 +1,18 @@
+{
+  "run_id": "cifar10_rgb_residual_v4",
+  "classifier": "RGB CNN features + SVM",
+  "stage": "development_40k_10k",
+  "cnn_sha256": "cea218a9171acf35ee5832b8ff4ae58b353faf829eb0ec2aeef598955186e828",
+  "split_hash": "16004a1ac8a89ac92ba6280367a7fb7b284c3643abb1c9d10409d6739ef31305",
+  "feature_archive_sha256": "452fb86d2742166bbc9c76edd6d270e19fa10a9c63c922774cdc8a312a9a5d28",
+  "feature_representation": "B",
+  "best_params": {
+    "svm__C": 1.0,
+    "svm__gamma": 0.5
+  },
+  "train_count": 40000,
+  "validation_count": 10000,
+  "validation_accuracy": 0.9349,
+  "validation_macro_f1": 0.9350004539698171,
+  "seconds": 8.153496344995801
+}

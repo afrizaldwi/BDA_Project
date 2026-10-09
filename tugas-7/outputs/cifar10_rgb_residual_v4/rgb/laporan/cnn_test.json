@@ -1,0 +1,9 @@
+{
+  "run_id": "cifar10_rgb_residual_v4",
+  "cnn_sha256": "cea218a9171acf35ee5832b8ff4ae58b353faf829eb0ec2aeef598955186e828",
+  "official_test_accuracy": 0.9202,
+  "macro_f1": 0.9204441699472415,
+  "n_test": 10000,
+  "post_exposure": true,
+  "classifier": "CNN Softmax"
+}

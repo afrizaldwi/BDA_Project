@@ -1,0 +1,55 @@
+{
+  "run_id": "cifar10_7fitur_v4",
+  "seed": 30092026,
+  "split_hash": "16004a1ac8a89ac92ba6280367a7fb7b284c3643abb1c9d10409d6739ef31305",
+  "model_hashes": [
+    "cea218a9171acf35ee5832b8ff4ae58b353faf829eb0ec2aeef598955186e828",
+    "efc5598b6789db22d062c076d0641e1afee43076a87312ccc70cdb55cb7d4010",
+    "8154382b1f8e64db3ccd7e3af5d38dd2a912b5f681b37973fe8abf5ffb439d13"
+  ],
+  "archive_sha256": {
+    "A": "b52ff1dfa11c3e36055bf1ca47958980c8d443edb1d8c29c201101cb5e6feef4",
+    "B": "af8584951025d488fdf6584b65e782d9a9746ddc162a22e59ba4193f62a14066"
+  },
+  "block_names": [
+    "rgb",
+    "avg",
+    "ntsc",
+    "hog",
+    "lbp",
+    "hsv",
+    "rgb_stats"
+  ],
+  "boundaries": {
+    "A": [
+      0,
+      512,
+      1024,
+      1536,
+      1860,
+      2116,
+      2164,
+      2173
+    ],
+    "B": [
+      0,
+      512,
+      1024,
+      1536,
+      1860,
+      2116,
+      2164,
+      2173
+    ]
+  },
+  "rgb_model_path": "outputs/cifar10_rgb_residual_v4/rgb/model/cnn.keras",
+  "avg_model_path": "outputs/cifar10_7fitur_v1/avg/model/cnn.keras",
+  "ntsc_model_path": "outputs/cifar10_7fitur_v1/ntsc/model/cnn.keras",
+  "rgb_archive_sha256": "452fb86d2742166bbc9c76edd6d270e19fa10a9c63c922774cdc8a312a9a5d28",
+  "v2_manifest_sha256": "f7d049fe26fcc44c231a04e22d29227b79ac4244dedf12c052fdc88bf47495de",
+  "rgb_feature_layer": "svm_features",
+  "gray_feature_layer": "embedding",
+  "preprocessing_version": "v4-rgb-pooling-replacement",
+  "representation_A": "original",
+  "representation_B": "original_horizontal_flip_average"
+}

@@ -1,0 +1,60 @@
+{
+  "run_id": "cifar10_rgb_residual_v4",
+  "feature_archive_sha256": "452fb86d2742166bbc9c76edd6d270e19fa10a9c63c922774cdc8a312a9a5d28",
+  "cnn_sha256": "cea218a9171acf35ee5832b8ff4ae58b353faf829eb0ec2aeef598955186e828",
+  "split_hash": "16004a1ac8a89ac92ba6280367a7fb7b284c3643abb1c9d10409d6739ef31305",
+  "feature_representation": "B",
+  "n_screen_train": 12000,
+  "n_screen_validation": 3000,
+  "param_grid": {
+    "svm__C": [
+      1.0,
+      10.0
+    ],
+    "svm__gamma": [
+      "scale",
+      0.5,
+      1.0
+    ]
+  },
+  "best_params": {
+    "svm__C": 1.0,
+    "svm__gamma": 0.5
+  },
+  "best_accuracy": 0.931,
+  "seconds": 8.013444951997371,
+  "candidate_accuracy": [
+    0.929,
+    0.931,
+    0.9293333333333333,
+    0.9293333333333333,
+    0.9293333333333333,
+    0.9293333333333333
+  ],
+  "candidate_params": [
+    {
+      "svm__C": 1.0,
+      "svm__gamma": "scale"
+    },
+    {
+      "svm__C": 1.0,
+      "svm__gamma": 0.5
+    },
+    {
+      "svm__C": 1.0,
+      "svm__gamma": 1.0
+    },
+    {
+      "svm__C": 10.0,
+      "svm__gamma": "scale"
+    },
+    {
+      "svm__C": 10.0,
+      "svm__gamma": 0.5
+    },
+    {
+      "svm__C": 10.0,
+      "svm__gamma": 1.0
+    }
+  ]
+}

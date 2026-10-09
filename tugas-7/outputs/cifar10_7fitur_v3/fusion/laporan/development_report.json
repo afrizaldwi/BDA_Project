@@ -1,0 +1,703 @@
+{
+  "run_id": "cifar10_7fitur_v3",
+  "identity_sha256": "9dc235578878ff57760e134a823a9c58ae9c8c40efe4c00f359deab54534c98a",
+  "screen_results": {
+    "1c5bd68e5905534cfc6c": {
+      "spec": {
+        "rep": "B",
+        "groups": "cnn3",
+        "block_l2": false,
+        "weights": [
+          1.0,
+          0.7,
+          0.7
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536
+        ],
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "accuracy": 0.9393333333333334,
+      "seconds": 3.82277220999822,
+      "n_train": 12000,
+      "n_val": 3000
+    },
+    "a0a673faa4318d17488e": {
+      "spec": {
+        "rep": "B",
+        "groups": "cnn3",
+        "block_l2": false,
+        "weights": [
+          1.0,
+          0.7,
+          0.7
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536
+        ],
+        "C": 10.0,
+        "gamma": 0.5
+      },
+      "accuracy": 0.9403333333333334,
+      "seconds": 2.7215721539978404,
+      "n_train": 12000,
+      "n_val": 3000
+    },
+    "a8138eb2f3dc8f03d286": {
+      "spec": {
+        "rep": "B",
+        "groups": "cnn3",
+        "block_l2": true,
+        "weights": [
+          2.0,
+          1.0,
+          1.0
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536
+        ],
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "accuracy": 0.9396666666666667,
+      "seconds": 3.718492273997981,
+      "n_train": 12000,
+      "n_val": 3000
+    },
+    "b78a8eba7f66b8a82936": {
+      "spec": {
+        "rep": "B",
+        "groups": "cnn3",
+        "block_l2": true,
+        "weights": [
+          2.0,
+          1.0,
+          1.0
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536
+        ],
+        "C": 10.0,
+        "gamma": 0.5
+      },
+      "accuracy": 0.9406666666666667,
+      "seconds": 2.5670493869984057,
+      "n_train": 12000,
+      "n_val": 3000
+    },
+    "2d7605cdeb2668a0d098": {
+      "spec": {
+        "rep": "B",
+        "groups": "all7",
+        "block_l2": false,
+        "weights": [
+          1.0,
+          0.7,
+          0.7,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536,
+          1860,
+          2116,
+          2164,
+          2173
+        ],
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "accuracy": 0.9393333333333334,
+      "seconds": 6.632253728996147,
+      "n_train": 12000,
+      "n_val": 3000
+    },
+    "7a5a6a97a4f61c804979": {
+      "spec": {
+        "rep": "B",
+        "groups": "all7",
+        "block_l2": false,
+        "weights": [
+          1.0,
+          0.7,
+          0.7,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536,
+          1860,
+          2116,
+          2164,
+          2173
+        ],
+        "C": 10.0,
+        "gamma": 0.5
+      },
+      "accuracy": 0.94,
+      "seconds": 4.5575183519977145,
+      "n_train": 12000,
+      "n_val": 3000
+    },
+    "1b6d4b6adc9e22cf8a6f": {
+      "spec": {
+        "rep": "B",
+        "groups": "all7",
+        "block_l2": true,
+        "weights": [
+          2.0,
+          1.0,
+          1.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536,
+          1860,
+          2116,
+          2164,
+          2173
+        ],
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "accuracy": 0.94,
+      "seconds": 5.542096381992451,
+      "n_train": 12000,
+      "n_val": 3000
+    },
+    "9acba97bfde6c1ddab99": {
+      "spec": {
+        "rep": "B",
+        "groups": "all7",
+        "block_l2": true,
+        "weights": [
+          2.0,
+          1.0,
+          1.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536,
+          1860,
+          2116,
+          2164,
+          2173
+        ],
+        "C": 10.0,
+        "gamma": 0.5
+      },
+      "accuracy": 0.9406666666666667,
+      "seconds": 3.8382478300045477,
+      "n_train": 12000,
+      "n_val": 3000
+    },
+    "4ab485a009591a9fc394": {
+      "spec": {
+        "rep": "A",
+        "groups": "cnn3",
+        "block_l2": false,
+        "weights": [
+          1.0,
+          0.7,
+          0.7
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536
+        ],
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "accuracy": 0.9376666666666666,
+      "seconds": 4.102198117994703,
+      "n_train": 12000,
+      "n_val": 3000
+    },
+    "f811de068dc7a6a99e28": {
+      "spec": {
+        "rep": "A",
+        "groups": "cnn3",
+        "block_l2": false,
+        "weights": [
+          1.0,
+          0.7,
+          0.7
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536
+        ],
+        "C": 10.0,
+        "gamma": 0.5
+      },
+      "accuracy": 0.9363333333333334,
+      "seconds": 2.897063608994358,
+      "n_train": 12000,
+      "n_val": 3000
+    },
+    "b0429b5b409a8e6df5ae": {
+      "spec": {
+        "rep": "A",
+        "groups": "cnn3",
+        "block_l2": true,
+        "weights": [
+          2.0,
+          1.0,
+          1.0
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536
+        ],
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "accuracy": 0.9386666666666666,
+      "seconds": 3.9008144690014888,
+      "n_train": 12000,
+      "n_val": 3000
+    },
+    "2f433c4bc6b350856c1a": {
+      "spec": {
+        "rep": "A",
+        "groups": "cnn3",
+        "block_l2": true,
+        "weights": [
+          2.0,
+          1.0,
+          1.0
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536
+        ],
+        "C": 10.0,
+        "gamma": 0.5
+      },
+      "accuracy": 0.9376666666666666,
+      "seconds": 2.693918699005735,
+      "n_train": 12000,
+      "n_val": 3000
+    },
+    "9efd0b89353b5153943b": {
+      "spec": {
+        "rep": "A",
+        "groups": "all7",
+        "block_l2": false,
+        "weights": [
+          1.0,
+          0.7,
+          0.7,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536,
+          1860,
+          2116,
+          2164,
+          2173
+        ],
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "accuracy": 0.9373333333333334,
+      "seconds": 6.894624702996225,
+      "n_train": 12000,
+      "n_val": 3000
+    },
+    "12a68275f7aaf3d090ef": {
+      "spec": {
+        "rep": "A",
+        "groups": "all7",
+        "block_l2": false,
+        "weights": [
+          1.0,
+          0.7,
+          0.7,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536,
+          1860,
+          2116,
+          2164,
+          2173
+        ],
+        "C": 10.0,
+        "gamma": 0.5
+      },
+      "accuracy": 0.9376666666666666,
+      "seconds": 4.983642937993864,
+      "n_train": 12000,
+      "n_val": 3000
+    },
+    "d51c0f21d217d82dbaf7": {
+      "spec": {
+        "rep": "A",
+        "groups": "all7",
+        "block_l2": true,
+        "weights": [
+          2.0,
+          1.0,
+          1.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536,
+          1860,
+          2116,
+          2164,
+          2173
+        ],
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "accuracy": 0.9386666666666666,
+      "seconds": 6.0733032599964645,
+      "n_train": 12000,
+      "n_val": 3000
+    },
+    "37fc9b309cf4aa0dc6ca": {
+      "spec": {
+        "rep": "A",
+        "groups": "all7",
+        "block_l2": true,
+        "weights": [
+          2.0,
+          1.0,
+          1.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536,
+          1860,
+          2116,
+          2164,
+          2173
+        ],
+        "C": 10.0,
+        "gamma": 0.5
+      },
+      "accuracy": 0.9376666666666666,
+      "seconds": 4.389642070993432,
+      "n_train": 12000,
+      "n_val": 3000
+    }
+  },
+  "full_results": {
+    "b78a8eba7f66b8a82936": {
+      "spec": {
+        "rep": "B",
+        "groups": "cnn3",
+        "block_l2": true,
+        "weights": [
+          2.0,
+          1.0,
+          1.0
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536
+        ],
+        "C": 10.0,
+        "gamma": 0.5
+      },
+      "accuracy": 0.9387,
+      "seconds": 9.535225158004323,
+      "correct": 9387,
+      "n_train": 40000,
+      "n_val": 10000
+    },
+    "9acba97bfde6c1ddab99": {
+      "spec": {
+        "rep": "B",
+        "groups": "all7",
+        "block_l2": true,
+        "weights": [
+          2.0,
+          1.0,
+          1.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536,
+          1860,
+          2116,
+          2164,
+          2173
+        ],
+        "C": 10.0,
+        "gamma": 0.5
+      },
+      "accuracy": 0.9388,
+      "seconds": 15.263511120996554,
+      "correct": 9388,
+      "n_train": 40000,
+      "n_val": 10000
+    },
+    "b0429b5b409a8e6df5ae": {
+      "spec": {
+        "rep": "A",
+        "groups": "cnn3",
+        "block_l2": true,
+        "weights": [
+          2.0,
+          1.0,
+          1.0
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536
+        ],
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "accuracy": 0.9362,
+      "seconds": 15.814107091995538,
+      "correct": 9362,
+      "n_train": 40000,
+      "n_val": 10000
+    },
+    "d51c0f21d217d82dbaf7": {
+      "spec": {
+        "rep": "A",
+        "groups": "all7",
+        "block_l2": true,
+        "weights": [
+          2.0,
+          1.0,
+          1.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536,
+          1860,
+          2116,
+          2164,
+          2173
+        ],
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      "accuracy": 0.9361,
+      "seconds": 25.77619288599817,
+      "correct": 9361,
+      "n_train": 40000,
+      "n_val": 10000
+    }
+  },
+  "ensemble_results": {
+    "hybrid": {
+      "spec": {
+        "rep": "B",
+        "groups": "all7",
+        "block_l2": true,
+        "weights": [
+          2.0,
+          1.0,
+          1.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536,
+          1860,
+          2116,
+          2164,
+          2173
+        ],
+        "C": 10.0,
+        "gamma": 0.5
+      },
+      "source_rbf_key": "9acba97bfde6c1ddab99",
+      "accuracy": 0.9386,
+      "correct": 9386,
+      "linear_weight": 0.25,
+      "all_weights": {
+        "0.25": {
+          "accuracy": 0.9386,
+          "correct": 9386
+        },
+        "0.5": {
+          "accuracy": 0.9384,
+          "correct": 9384
+        },
+        "0.75": {
+          "accuracy": 0.9384,
+          "correct": 9384
+        },
+        "1.0": {
+          "accuracy": 0.9384,
+          "correct": 9384
+        }
+      },
+      "seconds": 37.60188582299452,
+      "n_train": 40000,
+      "n_val": 10000
+    }
+  },
+  "late_results": {
+    "best": {
+      "source_rbf_key": "9acba97bfde6c1ddab99",
+      "representation": "B",
+      "weights": [
+        1.0,
+        0.7,
+        0.7
+      ],
+      "accuracy": 0.9252,
+      "correct": 9252,
+      "c": 3.0,
+      "gamma": "scale",
+      "all_weights": {
+        "[1.0, 1.0, 1.0]": {
+          "accuracy": 0.9241,
+          "correct": 9241
+        },
+        "[1.0, 0.7, 0.7]": {
+          "accuracy": 0.9252,
+          "correct": 9252
+        },
+        "[2.0, 1.0, 1.0]": {
+          "accuracy": 0.9245,
+          "correct": 9245
+        }
+      },
+      "seconds": 26.165832143000443,
+      "n_train": 40000,
+      "n_val": 10000
+    }
+  },
+  "selection": {
+    "run_id": "cifar10_7fitur_v3",
+    "identity_sha256": "9dc235578878ff57760e134a823a9c58ae9c8c40efe4c00f359deab54534c98a",
+    "source_manifest_sha256": "f7d049fe26fcc44c231a04e22d29227b79ac4244dedf12c052fdc88bf47495de",
+    "selected": {
+      "kind": "rbf",
+      "accuracy": 0.9388,
+      "correct": 9388,
+      "spec": {
+        "rep": "B",
+        "groups": "all7",
+        "block_l2": true,
+        "weights": [
+          2.0,
+          1.0,
+          1.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "boundaries": [
+          0,
+          512,
+          1024,
+          1536,
+          1860,
+          2116,
+          2164,
+          2173
+        ],
+        "C": 10.0,
+        "gamma": 0.5
+      }
+    },
+    "v2_validation_accuracy": 0.939,
+    "validation_delta": -0.00019999999999997797,
+    "n_development_train": 40000,
+    "n_development_validation": 10000,
+    "model_source": "v2 frozen CNN embeddings; no CNN retraining",
+    "post_exposure_test": true
+  },
+  "model_file_exists": false,
+  "note": "official test tidak digunakan pada proses pemilihan"
+}

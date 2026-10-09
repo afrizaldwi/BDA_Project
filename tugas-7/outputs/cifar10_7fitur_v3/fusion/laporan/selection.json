@@ -1,0 +1,42 @@
+{
+  "run_id": "cifar10_7fitur_v3",
+  "identity_sha256": "9dc235578878ff57760e134a823a9c58ae9c8c40efe4c00f359deab54534c98a",
+  "source_manifest_sha256": "f7d049fe26fcc44c231a04e22d29227b79ac4244dedf12c052fdc88bf47495de",
+  "selected": {
+    "kind": "rbf",
+    "accuracy": 0.9388,
+    "correct": 9388,
+    "spec": {
+      "rep": "B",
+      "groups": "all7",
+      "block_l2": true,
+      "weights": [
+        2.0,
+        1.0,
+        1.0,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "boundaries": [
+        0,
+        512,
+        1024,
+        1536,
+        1860,
+        2116,
+        2164,
+        2173
+      ],
+      "C": 10.0,
+      "gamma": 0.5
+    }
+  },
+  "v2_validation_accuracy": 0.939,
+  "validation_delta": -0.00019999999999997797,
+  "n_development_train": 40000,
+  "n_development_validation": 10000,
+  "model_source": "v2 frozen CNN embeddings; no CNN retraining",
+  "post_exposure_test": true
+}

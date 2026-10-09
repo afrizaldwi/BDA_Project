@@ -1,0 +1,42 @@
+{
+  "run_id": "cifar10_7fitur_v4",
+  "identity_sha256": "19e41a54de232ff8c9b4fc34ca58901b9b84521cee8743baec0ede30c7ad71b9",
+  "source_manifest_sha256": "84b2d1a26f347b2cb73fd40ed5ba683afdda231d40163c54aced47a9966bd76d",
+  "selected": {
+    "kind": "rbf",
+    "accuracy": 0.946,
+    "correct": 9460,
+    "spec": {
+      "rep": "B",
+      "groups": "all7",
+      "block_l2": false,
+      "weights": [
+        1.0,
+        0.7,
+        0.7,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "boundaries": [
+        0,
+        512,
+        1024,
+        1536,
+        1860,
+        2116,
+        2164,
+        2173
+      ],
+      "C": 1.0,
+      "gamma": "scale"
+    }
+  },
+  "v2_validation_accuracy": 0.939,
+  "validation_delta": 0.007000000000000006,
+  "n_development_train": 40000,
+  "n_development_validation": 10000,
+  "model_source": "RGB v4 frozen pooling embeddings; AVG/NTSC v1 frozen Dense embeddings",
+  "post_exposure_test": true
+}
